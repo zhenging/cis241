@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en" data-reactroot=""><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><head><title>hw0101_propositional_logic</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" integrity="sha384-TEMocfGvRuD1rIAacqrknm5BQZ7W7uWitoih+jMNFXQIbNl16bO8OZmylH/Vi/Ei" crossOrigin="anonymous"/><link href="/cis241/combined.css" rel="stylesheet"/></head><body><main><div class="container"><div class="note-body"><div class="note-content"><div class="note-tags-section"></div><article class="markdown-body"><h3>Section 1.1 Propositional Logic</h3>
+<p>pg34: 31d, 32de, <strong>38, 39</strong></p>
+<p>31. Construct a truth table for each of these compound propositions.<br />
+d). <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>p</mi><mo>∨</mo><mi>q</mi><mo>)</mo><mo>→</mo><mo>(</mo><mi>p</mi><mo>∧</mo><mi>q</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(p \lor q) \to (p \land q)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span></span></span></span></p>
+<div class="named-container-solution">
+<p><strong>Solution</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \lor q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.55556em;"></span><span class="strut bottom" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \land q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.55556em;"></span><span class="strut bottom" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>p</mi><mo>∨</mo><mi>q</mi><mo>)</mo><mo>→</mo><mo>(</mo><mi>p</mi><mo>∧</mo><mi>q</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(p \lor q) \to (p \land q)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span></span></span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>32. Construct a truth table for each of these compound propositions.<br />
+d. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>p</mi><mo>∧</mo><mi>q</mi><mo>)</mo><mo>→</mo><mo>(</mo><mi>p</mi><mo>∨</mo><mi>q</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(p \land q) \to (p \lor q)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span></span></span></span></p>
+<div class="named-container-solution">
+<p><strong>Solution</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \land q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.55556em;"></span><span class="strut bottom" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \lor q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.55556em;"></span><span class="strut bottom" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>p</mi><mo>∧</mo><mi>q</mi><mo>)</mo><mo>→</mo><mo>(</mo><mi>p</mi><mo>∨</mo><mi>q</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(p \land q) \to (p \lor q)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span></span></span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>e. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>q</mi><mo>→</mo><mi mathvariant="normal">¬</mi><mi>p</mi><mo>)</mo><mo>↔</mo><mo>(</mo><mi>p</mi><mo>↔</mo><mi>q</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(q \to \neg p) \bi (p \bi q)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">¬</span><span class="mord mathit">p</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span></span></span></span></p>
+<div class="named-container-solution">
+<p><strong>Solution</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi><mo>→</mo><mi mathvariant="normal">¬</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">q \to \neg p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">¬</span><span class="mord mathit">p</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \bi q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>q</mi><mo>→</mo><mi mathvariant="normal">¬</mi><mi>p</mi><mo>)</mo><mo>↔</mo><mo>(</mo><mi>p</mi><mo>↔</mo><mi>q</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(q \to \neg p) \bi (p \bi q)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">¬</span><span class="mord mathit">p</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span></span></span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>38. Construct a truth table for <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mo>(</mo><mi>p</mi><mo>→</mo><mi>q</mi><mo>)</mo><mo>→</mo><mi>r</mi><mo>)</mo><mo>→</mo><mi>s</mi></mrow><annotation encoding="application/x-tex">((p \to q) \to r) \to s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">s</span></span></span></span>.</p>
+<div class="named-container-solution">
+<p><strong>Solution</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.02778em;">r</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base"><span class="mord mathit">s</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \to q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>p</mi><mo>→</mo><mi>q</mi><mo>)</mo><mo>→</mo><mi>r</mi></mrow><annotation encoding="application/x-tex">(p \to q) \to r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.02778em;">r</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mo>(</mo><mi>p</mi><mo>→</mo><mi>q</mi><mo>)</mo><mo>→</mo><mi>r</mi><mo>)</mo><mo>→</mo><mi>s</mi></mrow><annotation encoding="application/x-tex">((p \to q) \to r) \to s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">s</span></span></span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>39. Construct a truth table for <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>p</mi><mo>↔</mo><mi>q</mi><mo>)</mo><mo>↔</mo><mo>(</mo><mi>r</mi><mo>↔</mo><mi>s</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(p \bi q) \bi (r \bi s)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">s</span><span class="mclose">)</span></span></span></span>.</p>
+<div class="named-container-solution">
+<p><strong>Solution</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.02778em;">r</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base"><span class="mord mathit">s</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \bi q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>↔</mo><mi>s</mi></mrow><annotation encoding="application/x-tex">r \bi s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">s</span></span></span></span></th>
+<th style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>p</mi><mo>↔</mo><mi>q</mi><mo>)</mo><mo>↔</mo><mo>(</mo><mi>r</mi><mo>↔</mo><mi>s</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(p \bi q) \bi (r \bi s)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">p</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">q</span><span class="mclose">)</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">s</span><span class="mclose">)</span></span></span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">T</td>
+</tr>
+</tbody>
+</table>
+</div>
+</article></div></div></div><footer class="note-footer"><div><p>Content written with attitude by @raven. Page built with <a href="https://github.com/markdown-it/markdown-it">markdown-it</a>, <a href="https://khan.github.io/KaTeX/">Katex</a>, <a href="https://reactjs.org/">React</a> and <a href="https://webpack.js.org/">webpack</a>.<br />
+Updated at Mar 17, 2018 8:45 PM</p>
+</div></footer></main></body></html>
