@@ -1,4 +1,5 @@
-## 02 Basic Structures: Sets, Functions, Sequences, Sums, and Matrices.
+## Chapter 02 Basic Structures: Sets, Functions, Sequences, Sums, and Matrices.
+
 ### 2.1 Set
 * Element, Empty set ($\emptyset = \{\}$)
   >**Prove** $\emptyset \subseteq A$.
@@ -9,8 +10,7 @@
 * Cartesian Products - $A\times B = \{ (a, b) \mid a\in A \land b\in B\}$
 
 ### 2.2 Set Operations
-**EX** 1-9, 13, 16, 17
-**HW** pg 157: 13, 15, 24, 30, 31, 47, 48
+Ex: 1-9, 13, 16, 17
 
 * Union - $A \cup B = \{x\mid x \in A \lor x \in B \}$
 * Intersection - $A \cap B = \{x\mid x \in A \land x \in B \}$
@@ -21,8 +21,7 @@
 * $\bigcap^{n}_{i=1} A_i= A_1 \cap A_2 \cap \cdots A_n$
 
 ### 2.3 Functions
-**EX** 1-23
-**HW** pg 175: 40, 42, 44
+Ex: 1-23
 
 * Function $f: A\to B$ - an assiagnment of exactly one element of $B$ to each element of $A$.
 * Domain and codomain, image and preimage, range
@@ -36,12 +35,13 @@
 * Composite Function
 
 ### 2.4 Sequences and Summations
-**EX** 10, 11
-**HW** pg 189: 16cef, 19, 22
+Ex: 10, 11
 
 * Sequence - $a_1, a_2 \cdots a_n$
 * Summation - $\sum^{n}_{i=1} a_i = a_1 + a_2 + \cdots + a_n$
 
 ### 2.5 Infinite Sets
-**Definition** We call a set $X$ countably infinite if there exists an 1-1 function $f: N\to x$, where $N$ is positive integers.
-> $X=\{2, 4, 6, 8 \cdots\}, f(n) = 2n$,
+>Definition
+We call a set $X$ countably infinite if there exists an 1-1 function $f: N\to x$, where $N$ is positive integers.
+
+$X=\{2, 4, 6, 8 \cdots\}, f(n) = 2n$,

@@ -34,7 +34,7 @@ Let $R$ be the relation.
 *Antisymmetric* - No. $(1, 3) \in R \land (3,1) \in R \land 1 \ne 3$.
 *Transitive* - No. $(1, 3) \in R \land (3, 1) \in R \land (1, 1) \notin R$
 
-9\. Show that the relation $R = \emptyset $ on the empty set $S = \emptyset$ is reflexive, symmetric, and transitive.
+9\. Show that the relation $R = \emptyset$ on the empty set $S = \emptyset$ is reflexive, symmetric, and transitive.
 >Solution
 Because the assumption that there are elements in $S\times S = \emptyset$ is false, the conclusion that $R$ is reflexive, symmetric and transitive is always true.
 

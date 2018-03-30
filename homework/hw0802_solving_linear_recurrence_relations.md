@@ -2,8 +2,10 @@
 pg545: 2, 4a,d,e,f,g, 8, 12, 14
 
 2\. Determine which of these are linear homogeneous recurrence relations with constant coefficients. Also, find the degree of those that are.
-a. $a_n=3a_{n-2}$ &emsp; b. $a_n=3$
-c. $a_n=a_{n-1}^2$ &emsp; d. $a_n=a_{n-1} + 2a_{n-3}$
+a. $a_n=3a_{n-2}$
+b. $a_n=3$
+c. $a_n=a_{n-1}^2$
+d. $a_n=a_{n-1} + 2a_{n-3}$
 e. $a_n=a_{n-1}/n$
 f. $a_n=a_{n-1} + a_{n-2} + n + 3$
 g. $a_n=4a_{n-2} + 5a_{n-4} + 9a_{n-7}$
@@ -42,7 +44,6 @@ a_1 &= c_1 + c_2 = 1\\
 a_n &= 4 - 3n
 \end{aligned}
 $$
-
 
 e. $a_n = a_{n-2}$, for $n \geq 2, a_0 = 5, a_1 = -1$
 >Solution

@@ -1,5 +1,5 @@
 ### Section 6.3 Permutations and Combinations
-pg434: 8, 10, 11, 12, 14, 16, 19, 22a,b,c, 27, 33, 34
+pg434: 8, 10, 11, 12, 14, 16, 19, 22abc, 27, 33, 34
 
 8\. In how many different orders can five runners finish a race if no ties are allowed?
 >Solution
