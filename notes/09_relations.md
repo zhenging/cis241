@@ -4,7 +4,7 @@
 p594
 Ex: 1-16, 20
 
-> Definition 1
+>Definition 1
 Let $A$ and $B$ be sets. A binary relation $R$ from $A$ to $B$ is a subset of $A \times B$.
 $$
 \begin{aligned}

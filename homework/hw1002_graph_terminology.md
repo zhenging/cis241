@@ -1,5 +1,5 @@
 ### Section 10.2 Graph Terminology
-pg687: 23, 24, 25, 52, 53, 54
+p687: 23, 24, 25, 52, 53, 54
 
 52\. Let **G** be a graph with **v** vertices and **e** edges. Let **M** be the maximum degree of the vertices of **G**, and let **m** be the minimum degree of the vertices of **G**. Show that
 a) $2e/v \geq m$ &emsp; b) $2e/v \leq M$.

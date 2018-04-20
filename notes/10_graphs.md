@@ -11,7 +11,7 @@ Ex:
 **HW** 23, 24, 25, 52, 53, 54
 
 ### 10.3 Representing Graphs and Graph Isomorphism
-p689
+p697
 Ex:
 **HW** 35, 36, 37, 38, 39, 43
 
