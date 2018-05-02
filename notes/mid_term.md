@@ -74,3 +74,30 @@ In both cases, we proved if $y \in h(A) \cup h(B)$, then $y \in h(A\cup B)$. Thu
 Let the set of $p$ elements be $P$, and the set of $s$ elements be $S$
 case #1: when $p>s$, there is no _one-to-one_ function.
 case #2: when $p \les s$, there are $s$ ways to map $p_1$ to $S$, there are $(s-1)$ ways to map $p_2$ to $S$, so on so forth, there are $(s-p+1)$ ways to map $p_p$ to $S$. By product rule, the total of _one-to-one_ functions is $s(s-1)(s-2) \cdots (s-p+1)$.
+
+6a. Let $K$ be a positive integer. Let $n$ be a positive integer. Let $x$ be integer. **Prove** that among any group of $nx+1$ (not necessarily consecutive) integers, there are _at least_ $(n+1)$ with exactly the same reminder when they are divided by $x$.
+>Solution
+The possible reminders of a number divided by $x$ are $0, 1, 2, \cdots, x-1$. The total of the reminders is $x$.
+**Objects**: $nx+1$ integers
+**Boxes**: $x$ reminders
+By the Piegeon Hole Principle, the number of integers with same reminders is at least
+$$
+\lceil \frac{nx+1}{x} \rceil = \lceil n+ \frac{1}{x} \rceil = n+1
+$$
+
+6b. Let $X$ be a set with $m$ elements. Prove that the number of subsets is: $2^m$
+>Solution
+1\. The number of subsets with $n$ elements is $C(m, n)$ (combination), where $ 0 \les n \les m$.
+2\. The number of all subsets is
+$$
+C(m, 0) + C(m, 1) + \cdots + C(m, m) = \sum_{n=0}^m C(m, n)
+$$
+3\. Let $x=1, y=1$
+$$
+\begin{aligned}
+2^m = (x+y)^m &= \sum_{n=0}^m C(m, n) x^{n-k} y^k\\
+& = \sum_{n=0}^m C(m, n) 1^{n-k} 1^k\\
+&= \sum_{n=0}^m C(m, n)
+\end{aligned}
+$$
+According to (2) and (3), the statement is proved.

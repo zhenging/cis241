@@ -4,6 +4,7 @@ p697: 35, 36, 37, 38, 39, 43
 In Exercises 34–44 determine whether the given pair of graphs is isomorphic. Exhibit an isomorphism or provide a rigorous argument that none exists.
 
 35\. ![Graph](../assets/1003_35.png)
+>Solution
 
 36\. ![Graph](../assets/1003_36.png)
 

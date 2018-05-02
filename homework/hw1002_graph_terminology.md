@@ -1,6 +1,19 @@
 ### Section 10.2 Graph Terminology
 p687: 23, 24, 25, 52, 53, 54
 
+In Exercises 21–25 determine whether the graph is bipartite. You may find it useful to apply **Theorem 4** and answer the question by determining whether it is possible to assign either red or blue to each vertex so that no two adjacent vertices are assigned the same color.
+23\. ![Graph](../assets/1002_23.png)
+>Solution
+Not bipartite.
+
+24\. ![Graph](../assets/1002_24.png)
+>Solution
+Bipartite
+
+25\. ![Graph](../assets/1002_25.png)
+>Solution
+Not bipartite.
+
 52\. Let **G** be a graph with **v** vertices and **e** edges. Let **M** be the maximum degree of the vertices of **G**, and let **m** be the minimum degree of the vertices of **G**. Show that
 a) $2e/v \geq m$ &emsp; b) $2e/v \leq M$.
 >Solution
@@ -28,4 +41,5 @@ d. For $n \geq 0$, $W_n$ is a **n**-regular graph.
 >Solution
 When $m=n$, $K_{m,n}$ is regular.
 
-In Exercises 21–25 determine whether the graph is bipartite. You may find it useful to apply **Theorem 4** and answer the question by determining whether it is possible to assign either red or blue to each vertex so that no two adjacent vertices are assigned the same color.
+64\. Show that if $G$ is a bipartite simple graph with $v$ vertices and $e$ edges, then $e \les \frac{v^2}{4}$.
+>Solution
