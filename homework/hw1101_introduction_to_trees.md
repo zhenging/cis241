@@ -3,7 +3,7 @@ p777: 16, 17, 18, **28**
 
 16\. Which complete bipartite graphs $K_{m,n}$, where $m$ and $n$ are positive integers, are trees?
 >Solution
-Todo
+When $m=1$ and $n$ is any positive integer, graphs $K_{m,n}$ are trees.
 
 17\. How many edges does a tree with 10,000 vertices have?
 >Solution
