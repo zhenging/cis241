@@ -21,9 +21,6 @@ Ex: 2, 3, 15
 **HW** 26ab, 30
 
 ### 10.5 Euler and Hamilton Paths
-p714
-Ex: 1-7
-**HW** 10, 30, 31, 35, 26, 28a
 
 ### 10.6 Shortest-Path Problems
 p728
