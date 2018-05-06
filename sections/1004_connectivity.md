@@ -1,5 +1,5 @@
 ### Section 10.4 Connectivity
-p910: 26ab, 30
+p710: 26ab, 30
 
 26\. Find the number of paths between c and d in the graph in Figure 1 of length
 a. 2 &emsp; b. 3

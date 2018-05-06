@@ -30,7 +30,6 @@ e. $(q \to \neg p) \bi (p \bi q)$
 | F | T | T | F | F |
 | F | F | T | T | T |
 
-
 38\. Construct a truth table for $((p \to q) \to r) \to s$.
 >Solution
 | $p$ | $q$ | $r$ | $s$ | $p \to q$ | $(p \to q) \to r$ | $((p \to q) \to r) \to s$ |
@@ -51,7 +50,6 @@ e. $(q \to \neg p) \bi (p \bi q)$
 | F | F | T | F | T | T | F |
 | F | F | F | T | F | T | T |
 | F | F | F | F | F | T | F |
-
 
 39\. Construct a truth table for $(p \bi q) \bi (r \bi s)$.
 >Solution
