@@ -1,5 +1,47 @@
-### Section 5.1 Mathematical Induction
-pg350: 6, 14, 15, 20, 21, 31, 32, 34, 36, 43
+### 5.1 Mathematical Induction
+p334
+Ex: 1, 2, 3, 5, 6, 8, 9, 10, 11
+
+To prove a statement $P(n)$ is true for every $n \mid n > n_{threshold}$ (positive integer)
+1\. **Basic step** Show $P(n_{threshold})$ is true.
+2\. **Hypothesis** Assume the statement for a value of $n=k, P(k)$ is true .
+3\. **Induction step** Prove for $n=k+1, P(k+1)$ is true.
+
+EXAMPLE 1
+Show that if $n$ is a positive integer, then $1 + 2 + \cdots + n = \frac{n(n+1)}{2}$
+
+EXAMPLE 2
+Conjecture a formula for the sum of the first n positive odd integers. Then prove your conjecture using mathematical induction.
+
+EXAMPLE 3
+Use mathematical induction to show that $1 + 2 + 2^2 + \cdots + 2^n = 2^{n+1} - 1$
+
+EXAMPLE 5
+Use mathematical induction to prove the inequality $n <2^n$ for all positive integers.
+
+EXAMPLE 6
+Use mathematical induction to prove that $2^n < n!$ for every integer $n$ with $n \ges 4$. (Note that this inequality is false for $n = 1, 2$, and $3$.)
+
+EXAMPLE 8
+Use mathematical induction to prove that $n^3 - n$ is divisible by $3$ whenever $n$ is a positive integer. (Note that this is the statement with $p = 3$ of Fermat’s little theorem, which is Theorem 3 of Section 4.4.)
+
+EXAMPLE 9
+Use mathematical induction to prove that $7^{n+2} + 8^{2n+1}$ is divisible by $57$ for every nonnegative integer $n$.
+
+EXAMPLE 10
+**The Number of Subsets of a Finite Set** Use mathematical induction to show that if $S$ is a finite set with $n$ elements, where $n$ is a nonnegative integer, then $S$ has $2^n$ subsets. (We will prove this result directly in several ways in Chapter 6.)
+
+EXAMPLE 11
+Use mathematical induction to prove the following generalization of one of De Morgan's laws:
+$$
+\begin{aligned}
+\overline{\bigcap_{j=1}^n A_j} = \bigcup_{j=1}^n \overline{A_j}
+\end{aligned}
+$$
+whenever $A_1, A_2, \cdots, A_n$ are subsets of a universal set $U$ and $n\ges 2$
+
+#### Homework
+p350: 6, 14, 15, 20, 21, 31, 32, 34, 36, 43
 
 6\. Prove that $1 \cdot 1! + 2 \cdot 2!+ \cdots + n \cdot n! = (n + 1)! - 1$ whenever $n$ is a positive integer.
 >Solution

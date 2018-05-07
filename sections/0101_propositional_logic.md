@@ -1,5 +1,16 @@
-### Section 1.1 Propositional Logic
-pg34: 31d, 32de, **38, 39**
+### 1.1 Propositional Logic
+
+* Proposition - A statement that has a truth value.
+* Truth table and how to construct one.
+* Logical operations - and ($\land$), or ($\lor$), negation ($\neg$).
+* Implication (If **assumption** is false, the **conclusion** is always true).
+  >$p\to q$, if $p$, then $q$.
+  If $p$ (assumption) is false, $p\to q$ (conclusion) is always true.
+* Bi-implication (Double implication, if and only if) $p \iff q \equiv (p \to q \land q \to p)$.
+* Contrapositive - The contrapositive of $p\to q \text{ is } \lnot q \to \lnot p$.
+
+#### Homework
+p34: 31d, 32de, **38, 39**
 
 31\. Construct a truth table for each of these compound propositions.
 d). $(p \lor q) \to (p \land q)$

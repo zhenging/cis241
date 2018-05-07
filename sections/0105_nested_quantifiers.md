@@ -1,5 +1,11 @@
-### Section 1.5 Nested Quantifiers
-pg85: 26, 27 e g h, 31b d, **46**
+### 1.5 Nested Quantifiers
+Ex: 1, 2, 3, 4, 5, table 1
+
+* How to evaluate quantification expressions? (example and counter-example)
+* How to distribute negation in quantification expression ? **(hw31, 32)**
+
+#### Homework
+p85: 26, 27 e g h, 31b d, **46**
 
 26\. Let $Q(x, y)$ be the statement “$x + y = x - y$” If the domain for both variables consists of all integers, what are the truth values?
 a) $Q(1, 1)$ &emsp; b) $Q(2, 0)$ &emsp; c) $\forall y Q(1, y)$

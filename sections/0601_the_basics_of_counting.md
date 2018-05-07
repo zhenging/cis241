@@ -1,5 +1,12 @@
-### Section 6.1 The Basics of Counting
-pg417: 1, 6, 10, 12, 17, 28, 32a-f, 34, 37a-b,48, 49, 55, 56
+### 6.1 The Basics of Counting
+Ex: 1-23, except 17
+
+* How to count one-to-one functions (**hw37**)
+* Product rule (**and**)
+* Sum rule (**or**)
+
+#### Homework
+p417: 1, 6, 10, 12, 17, 28, 32a-f, 34, 37a-b,48, 49, 55, 56
 
 1\. There are 18 mathematics majors and 325 computer science majors at a college.
 a) In how many ways can two representatives be picked so that one is a mathematics major and the other is a computer science major?

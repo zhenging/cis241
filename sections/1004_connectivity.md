@@ -1,4 +1,8 @@
-### Section 10.4 Connectivity
+### 10.4 Connectivity
+p699
+Ex: 2, 3, 15
+
+#### Homework
 p710: 26ab, 30
 
 26\. Find the number of paths between c and d in the graph in Figure 1 of length

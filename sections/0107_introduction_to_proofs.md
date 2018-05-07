@@ -1,5 +1,17 @@
-### Section 1.7 Introduction to Proofs
-pg112: 13, 26, 27, 31, 32, 42
+### 1.7 Introduction to Proofs
+Ex: 3, 8, 10, 12, 13
+
+* Direct proof
+  > If $n$ is odd, then $n^3$ is odd.
+* Contrapositive
+  > If $3n+2$ is even, then $n$ is even.
+* Contradiction
+  > $\sqrt 2$ is irrational.
+* How to prove "if and only if" statement? ($p \iff q \equiv p \to q \land q \to p$).
+* How to prove multiple statements are equivalent? ($p \to q, q \to r$, and $r \to p$).
+
+#### Homework
+p112: 13, 26, 27, 31, 32, 42
 
 13\. Prove that if $x$ is irrational, then $1/x$ is irrational.
 >Solution

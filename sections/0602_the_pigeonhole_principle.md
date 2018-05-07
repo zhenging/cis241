@@ -1,5 +1,14 @@
-### Section 6.2 The Pigeonhole Principle
-pg426: 2, 6, 9
+### 6.2 The Pigeonhole Principle.
+Ex: 1-3, 5-7
+
+>Theorem 1 - The pigeonhole principle
+If **k** is a positive integer and **k+1** or more objects are placed into $k$ boxes, then there is at least one box containing two or more of the objects.
+
+>Theorem 2 - Generalized pigeonhole principle
+If $N$ object are placed into $k$ boxes, then there is at least one box containing $\lceil N/k \rceil$ objects.
+
+#### Homework
+p426: 2, 6, 9
 
 2\. Show that if there are 30 students in a class, then at least two have last names that begin with the same letter.
 

@@ -1,5 +1,15 @@
-### Section 6.3 Permutations and Combinations
-pg434: 8, 10, 11, 12, 14, 16, 19, 22abc, 27, 33, 34
+### 6.3 Permutations and Combinations
+p428
+Ex: 1-15, except 11
+
+#### Permutation (order matters)
+If $n$ is positive integer and $r$ is an integer with $0 \leqslant r \leqslant n$, then there are $P(n, r) = n(n-1) \cdots (n-r+1) = \frac{n!}{(n-r)!}$
+
+#### Combination (order does not matter)
+The number is $r$-combinations of a set with $n$ elements, where $n$ is a nonnegative integer and $r$ i an integer with $0 \leqslant r \leqslant n$, equals $C(n, r) = \frac{n!}{(n-r)!r!}$
+
+#### Homework
+p434: 8, 10, 11, 12, 14, 16, 19, 22abc, 27, 33, 34
 
 8\. In how many different orders can five runners finish a race if no ties are allowed?
 >Solution

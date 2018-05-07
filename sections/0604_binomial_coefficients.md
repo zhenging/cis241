@@ -1,5 +1,17 @@
-### Section 6.4 Binomial Coefficients
-pg443: 4, 7, 8, 9
+### 6.4 Binomial Coefficients
+p436
+Ex: 1-4
+
+**THE BINOMIAL THEOREM** Let $x$ and $y$ be variables, and let n be a nonnegative integer. Then
+$$
+\begin{aligned}
+(x+y)^n &= \binom{n}{0}x^ny^0 + \binom{n}{1}x^{n-1}y^1 + \cdots + \binom{n}{n}x^0y^n\\
+&=\sum^n_{k=0}x^{n-k}y^k
+\end{aligned}
+$$
+
+#### Homework
+p443: 4, 7, 8, 9
 
 4\. Find the coefficient of $x^5y^8$ in $(x + y)^{13}$.
 >Solution

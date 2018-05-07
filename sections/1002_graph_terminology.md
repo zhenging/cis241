@@ -1,4 +1,7 @@
-### Section 10.2 Graph Terminology
+### 10.2 Graph Terminology
+p672
+
+#### Homework
 p687: 23, 24, 25, 52, 53, 54
 
 In Exercises 21–25 determine whether the graph is bipartite. You may find it useful to apply **Theorem 4** and answer the question by determining whether it is possible to assign either red or blue to each vertex so that no two adjacent vertices are assigned the same color.

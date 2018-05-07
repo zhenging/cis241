@@ -1,5 +1,35 @@
-### Section 5.3 Recursive Definitions and Structural Induction
-pg379: 12, 13, 15, 48, 49, 50
+### 5.3 Recursive Definitions and Structural Induction
+p365
+Ex: 1, 2, 3, 5
+
+EXAMPLE 1
+Suppose that $f$ is defined recursively by
+$$
+\begin{aligned}
+f(0)&=3\\
+f(n+1) &= 2f(n) + 3
+\end{aligned}
+$$
+Find $f(1), f(2), f(3)$ and $f(4)$.
+
+EXAMPLE 2
+Give a recursive definition of $a^n$, where $a$ is a nonzero real number and $n$ is a nonnegative integer.
+**Solution**: The recursive definition contains two parts. First $a_0$ is specified, namely, $a^0 = 1$. Then the rule for finding a n+1 from $a^n$, namely, $a^{n+1} = a \cdot a^n$, for $n = 0, 1, 2, 3, \cdots$, is given. These
+two equations uniquely define $a^n$ for all nonnegative integers $n$.
+
+EXAMPLE 3
+Give a recursive definition of $\sum\limits_{k=0}^n a_k$.
+**Solution**: The first part of the recursive definition is $\sum\limits_{k=0}^0 = a_0$.
+The second part is $\sum\limits_{k=0}^{n+1} a_k = \left(\sum\limits_{k=0}^n a_k \right)+ a_{n+1}$
+
+EXAMPLE 5
+Consider the subset $S$ of the set of integers recursively defined by
+Basic Step: $3 \in S$.
+Recursive Step: If $x \in S$ and $y \in S$, then $x+y \in S$.
+The new elements found to be in S are $3$ by the basis step, $3 + 3 = 6$ at the first application of the recursive step, $3 + 6 = 6 + 3 = 9$ and $6 + 6 = 12$ at the second application of the recursive step, and so on. We will show in Example 10 that S is the set of all positive multiples of $3$.
+
+#### Homework
+p379: 12, 13, 15, 48, 49, 50
 
 In Exercises 12–19 fn is the nth Fibonacci number.
 12\. Prove that $f_1^2 + f_2^2 + \cdots + f_n^2 = f_nf_{n+1}$ when $n$ is a positive integer.

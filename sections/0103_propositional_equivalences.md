@@ -1,5 +1,13 @@
-### Section 1.3 Propositional Equivalences
-pg55: 15, **16, 31, 34**
+### 1.3 Propositional Equivalences
+
+* Propositional 1 $\equiv$ propositional 2. These two are logically equivalent. (Use truth table to prove)
+* DeMogan's Law:
+  >1\. $\neg (p\land q) \equiv \neg p \lor \neg  q$
+  2\. $\neg (p\lor q) \equiv \neg p \land \neg  q$
+* Tautology - a statement that is always true for every possible case.
+
+#### Homework
+p55: 15, **16, 31, 34**
 
 15\. Determine whether $(\neg q \land (p \to  q)) \to \neg p$ is a tautology.
 >Solution

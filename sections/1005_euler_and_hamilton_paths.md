@@ -1,4 +1,4 @@
-### Section 10.5 Euler and Hamilton Paths
+### 10.5 Euler and Hamilton Paths
 p714
 Ex: 1-7
 

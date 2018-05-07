@@ -1,5 +1,17 @@
-### Section 1.4 Predicates And Quantifiers
-pg74: 11, 13, 30, 36, 52
+### 1.4 Predicates And Quantifiers
+Ex: 1, 3, 6, 8, 9, 10, 14, 16
+
+* Propositional function $P(x)$
+* Convert a propositional function to a proposition, and evaluate it.
+* Quantification
+  1\. Universal quantification - $\forall x P(x) \equiv P(x_1) \land P(x_2) \land \cdots P(x_n)$
+  2\. Existential quantification - $\exists x P(x) \equiv P(x_1) \lor P(x_2) \lor \cdots P(x_n)$
+* Negation of quantified expressions
+  1\. $\lnot \forall x P(x) \equiv \exists x \neg P(x)$
+  2\. $\lnot \exists x P(x) \equiv \forall x \neg P(x)$
+
+#### Homework
+p74: 11, 13, 30, 36, 52
 
 11\. Let $P(x)$ be the statement $"x = x^2."$ If the domain consists of the integers, what are these truth values?
 a) $P(0)$  &emsp; b) $P(1)$ &emsp; c) $P(2)$ &emsp; d) $P(-1)$ &emsp; e) $\forall xP(x)$ &emsp; f) $\exists xP(x)$

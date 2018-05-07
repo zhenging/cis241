@@ -1,5 +1,16 @@
-### Section 2.2 Set Operations
-pg157: 13, 15, 24, 30, 31, 47, 48
+### 2.2 Set Operations
+Ex: 1-9, 13, 16, 17
+
+* Union - $A \cup B = \{x\mid x \in A \lor x \in B \}$
+* Intersection - $A \cap B = \{x\mid x \in A \land x \in B \}$
+* Difference - $A - B = \{x\mid x \in A \land x \notin B \}$
+* Complement - $\overline A = \{x\mid x \notin A\}$
+* Membership table and how to construct one
+* $\bigcup^{n}_{i=1} A_i= A_1 \cup A_2 \cup \cdots A_n$
+* $\bigcap^{n}_{i=1} A_i= A_1 \cap A_2 \cap \cdots A_n$
+
+#### Homework
+p157: 13, 15, 24, 30, 31, 47, 48
 
 13\.  Prove the second absorption law from Table 1 by showing that if $A$ and $B$ are sets, then $A \cap (A \cup B) = A$.
 >Solution

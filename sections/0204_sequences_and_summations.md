@@ -1,5 +1,11 @@
-### Section 2.4 Sequences and Summations
-pg189: 16cef, 19, 22
+### 2.4 Sequences and Summations
+Ex: 10, 11
+
+* Sequence - $a_1, a_2 \cdots a_n$
+* Summation - $\sum^{n}_{i=1} a_i = a_1 + a_2 + \cdots + a_n$
+
+#### Homework
+p189: 16cef, 19, 22
 
 16\. Find the solution to each of these recurrence relations with the given initial conditions. Use an iterative approach such as that used in Example 10.
 c. $a_n = a_{n-1} - n, a_0 = 4$

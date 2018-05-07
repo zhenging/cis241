@@ -1,5 +1,30 @@
-### Section 8.2 Solving Linear Recurrence Relations
-pg545: 2, 4a,d,e,f,g, 8, 12, 14
+### 8.2 Solving Linear Recurrence Relations
+p535
+Ex: 1-6
+
+>Definition
+A _linear homogeneous recurrence relation of degree k with constant coefficients_ is a recurrence relation of the form
+$$
+\begin{aligned}
+a_n = c_1a_{n-1} + c_2a_{n-2} + \cdots + c_ka_{n-k},
+\end{aligned}
+$$
+where $c_1, c_2, \cdots c_k$ are real numbers, and $c_k \ne 0$.
+
++ **Linear** - the right-hand side is a sum of previous terms of the sequence each multiplied by a function of $n$.
++ **Homogeneous** - no terms occur that are not multiplies of $a_j$s.
++ **Constants** - the coefficients of the terms are constants
++ **Degree** - $a_n$ is expressed in terms of the previous $k$ terms of the sequence.
+
+Example 1
+The recurrence relation $P_n = (1.11)P_{n-1}$ is a linear homogeneous recurrence relation of degree _one_. The recurrence relation $f_n = f_{n-1} + f_{n-2}$ is a linear homogeneous recurrence relation of degree _two_. The recurrence relation $a n = a_{n-5}$ is a linear homogeneous recurrence relation of degree _five_.
+
+Example 2
+The recurrence relation $a_n = a_{n-1} + a_{n-2}$ is not linear. The recurrence relation $H_n = 2H_{n-1} + 1$ is not homogeneous. The recurrence relation $B_n = nB_{n-1}$ does not have constant
+coefficients.
+
+#### Homework
+p545: 2, 4a,d,e,f,g, 8, 12, 14
 
 2\. Determine which of these are linear homogeneous recurrence relations with constant coefficients. Also, find the degree of those that are.
 a. $a_n=3a_{n-2}$

@@ -1,5 +1,19 @@
-### Section 2.3 Functions
-pg175: 40, 42, 44
+### 2.3 Functions
+Ex: 1-23
+
+* Function $f: A\to B$ - an assiagnment of exactly one element of $B$ to each element of $A$.
+* Domain and codomain, image and preimage, range
+* One-to-one function
+	>$\forall a \forall b (f(a)=f(b) \to a=b)$ or equivalently $\forall a \forall b (a\ne b \to f(a) \ne f(b))$
+* Image of set $f(s) = \{t \mid \exists s \in S, f(s) = t\}$
+* Inverse function
+	>1\. If $f$ is a function $f: A\to B$ and is one to one, then $f^{-1}$ exists.
+	2\. $f^{-1}(b) = a$ when $f(a) = b$
+* Inverse image **(hw 42, 44)**
+* Composite Function
+
+#### Homework
+p175: 40, 42, 44
 
 40\. Let $f$ be a function from the set $A$ to the set $B$. Let $S$ and $T$ be subsets of $A$. Show that
 a. $f(S \cup T) = f(S) \cup f(T)$.
