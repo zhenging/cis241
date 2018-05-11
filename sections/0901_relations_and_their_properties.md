@@ -54,7 +54,7 @@ Which of these relations are reflexive?
 >Solution
 The relations $R_3$ and $R_5$ are reflexive because they both contain all pairs of the form $(a, a)$, namely, $(1, 1)$, $(2, 2)$, $(3, 3)$, and $(4, 4)$. The other relations are not reflexive because they do not contain all of these ordered pairs. In particular, $R_1, R_2, R_4$, and $R_6$ are not reflexive because $(3, 3)$ is not in any of these relations.
 
-> Definition
+>Definition
 A relation $R$ on a set $A$ is called _symmetric_ if $(b, a) \in R$ whenever (a, b) \in R, for all $a, b \in A$. A relation $R$ on a set $A$ such that for all $a, b \in A$, if $(a, b) \in R$ and $(b, a) \in R$, then $a = b$ is called _antisymmetric_.
 $$
 \begin{aligned}
@@ -85,8 +85,7 @@ _Solution_: A relation $R$ on a set $A$ is a subset of $A\times A$. Consequently
 
 #### Combining relations
 > Definition
-Let $R$ be a relation from a set $A$ to a set $B$ and $S$ a relation from $B$ to a set $C$. The _composite_ of $R$ and $S$ is the relation consisting of ordered pairs $(a, c)$, where $a \in A, c \in C$, and for
-which there exists an element $b \in B$ such that $(a, b) \in R$ and $(b, c) \in S$. We denote the composite of R and S by $S \circ R$.
+Let $R$ be a relation from a set $A$ to a set $B$ and $S$ a relation from $B$ to a set $C$. The _composite_ of $R$ and $S$ is the relation consisting of ordered pairs $(a, c)$, where $a \in A, c \in C$, and for which there exists an element $b \in B$ such that $(a, b) \in R$ and $(b, c) \in S$. We denote the composite of R and S by $S \circ R$.
 
 EXAMPLE 20
 What is the composite of the relations R and S, where R is the relation from $\{1, 2, 3\}$ to $\{1, 2, 3, 4\}$ with $R = \{(1, 1), (1, 4), (2, 3), (3, 1), (3, 4)\}$ and $S$ is the relation from $\{1, 2, 3, 4\}$ to $\{0, 1, 2\}$ with $S = \{(1, 0), (2, 0), (3, 1), (3, 2), (4, 1)\}$?
@@ -137,7 +136,6 @@ Let $R$ be the relation.
 >Solution
 Because the assumption that there are elements in $S\times S = \emptyset$ is false, the conclusion that $R$ is reflexive, symmetric and transitive is always true.
 
-
 25\. How many different relations are there from a set with $m$ elements to a set with $n$ elements?
 >Solution
 Let the set with $m$ elements be $A$, and the set with $n$ elements be $B$.
@@ -146,15 +144,15 @@ Let the set with $m$ elements be $A$, and the set with $n$ elements be $B$.
 3\. Thus there are $2^{mn}$ relations from $A$ to $B$.
 
 32\. Let $R$ be the relation $\{(1, 2), (1, 3), (2, 3), (2, 4), (3, 1)\}$, and let $S$ be the relation $\{(2, 1), (3, 1), (3, 2), (4, 2)\}$. Find $S \circ R$.
+ $R$   |  $S$   | $S \circ R$
+ ------|--------|------------
+(1, 2) | (2, 1) | (1, 1)
+(1, 3) | (3, 1) | (1, 1)
+(1, 3) | (3, 2) | (1, 2)
+(2, 3) | (3, 1) | (2, 1)
+(2, 3) | (3, 2) | (2, 2)
+(2, 4) | (4, 2) | (1, 1)
+(3, 1) | (2, 1) | (1, 1)
 >Solution
-$$
-\begin{gathered}
-(1, 2) \in R \land (2, 1) \in S \to (1, 1) \in S \circ R\\
-(1, 3) \in R \land (3, 1) \in S \to (1, 1) \in S \circ R\\
-(1, 3) \in R \land (3, 2) \in S \to (1, 2) \in S \circ R\\
-(2, 3) \in R \land (3, 1) \in S \to (2, 1) \in S \circ R\\
-(2, 3) \in R \land (3, 2) \in S \to (2, 2) \in S \circ R\\
-(2, 4) \in R \land (4, 2) \in S \to (2, 2) \in S \circ R\\
-S \circ R = \{(1, 1), (1, 2), (2, 1), (2, 2)\}
-\end{gathered}
-$$
+See Table Above.
+$S \circ R = \{(1, 1), (1, 2), (2, 1), (2, 2)\}$

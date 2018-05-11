@@ -43,7 +43,6 @@ $$
 C_d = C(10, 5) = \frac{10!}{5!5!} = 252
 $$
 
-
 12\. How many bit strings of length 12 contain
 a) exactly three 1s?
 b) at most three 1s?
@@ -102,14 +101,14 @@ $$
 C_d = C(10, 5) = \frac{10!}{5!5!} = 252
 $$
 
-22\. How many permutations of the letters ABCDEFGH contain
-a) the string ED?
-b) the string CDE?
-c) the strings BA and FGH?
+22\. How many permutations of the letters _ABCDEFGH_ contain
+a) the string _ED_?
+b) the string _CDE_?
+c) the strings _BA_ and _FGH_?
 >Solution
-a. We can treat "ED" as one element, then the answer can be given by the number of 7-**permutations** of a set of 7 elements. That is $P(7, 7) = 7! = 5040$.
-b. We can treat "CDE" as one element, then the answer can be given by the number of 6-**permutations** of a set of 6 elements. That is $P(6, 6) = 6! = 720$.
-c. We can treat "BA" and "FGH" as two elements, then the answer can be given by the number of 5-**permutations** of a set of 5 elements. That is $P(5, 5) = 5! = 120$.
+a. We can treat _ED_ as one element, then the answer can be given by the number of 7-**permutations** of a set of 7 elements. That is $P(7, 7) = 7! = 5040$.
+b. We can treat _CDE_ as one element, then the answer can be given by the number of 6-**permutations** of a set of 6 elements. That is $P(6, 6) = 6! = 720$.
+c. We can treat _BA_ and _FGH_ as two elements, then the answer can be given by the number of 5-**permutations** of a set of 5 elements. That is $P(5, 5) = 5! = 120$.
 
 27\. A club has 25 members.
 a) How many ways are there to choose four members of the club to serve on an executive committee?

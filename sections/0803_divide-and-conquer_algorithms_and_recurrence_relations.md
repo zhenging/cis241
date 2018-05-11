@@ -39,7 +39,7 @@ EXAMPLE 9
 **Complexity of Merge Sort** In Example 3 we explained that the number of comparisons used by the merge sort to sort a list of n elements is less than $M(n)$, where $M(n) = 2M(n/2) + n$. By the master theorem (Theorem 2) we find that $M(n)$ is $O(n \log n)$, which agrees with the estimate found in Section 5.4.
 
 #### Homework
-p535: 34, 36
+p535: 34, 36 (**Deprecated**)
 
 34\. Find $f(n)$ when $n = 4k$, where $f$ satisfies the recurrence relation $f(n) = 5f (n/4) + 6n$, with $f (1) = 1$.
 

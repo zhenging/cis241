@@ -6,7 +6,7 @@ Ex: 1-6
 A _linear homogeneous recurrence relation of degree k with constant coefficients_ is a recurrence relation of the form
 $$
 \begin{aligned}
-a_n = c_1a_{n-1} + c_2a_{n-2} + \cdots + c_ka_{n-k},
+a_n = c_1a_{n-1} + c_2a_{n-2} + \cdots + c_ka_{n-k}
 \end{aligned}
 $$
 where $c_1, c_2, \cdots c_k$ are real numbers, and $c_k \ne 0$.
@@ -117,7 +117,7 @@ b. Find $L_n$ if $100,000$ lobsters were caught in year $1$ and $300,000$ were c
 $$
 \begin{aligned}
 L_n &= \frac{L_{n-1}}{2} + \frac{L_{n-2}}{2} &\text{ for } n\geq 3\\
-L_1 &= 100000 \quad L_2= 300000\\
+L_1 &= 100000 \quad L_2= 300000
 \end{aligned}
 $$
 The degree is 2. Characteristic equation is $r^2-\frac{1}{2}r-\frac{1}{2}=0$. Its roots are $r=1, -\frac{1}{2}$.
