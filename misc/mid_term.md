@@ -1,5 +1,7 @@
 ### Mid Term
 (1a) Are the following expressiongs $\neg p \to (q\to r)$ and $q \to (p \lor r)$ logically equivalent? Prove or Disprove.
+>Solution
+Todo
 
 (1b) Determine the truth value of the statement: $\exists a \forall b (b^2 \ges a)$ if the domain of the variable consists of the positive (non-zero) real numbers.
 >Solution
@@ -75,6 +77,11 @@ $$
 In both cases, we proved if $y \in h(A) \cup h(B)$, then $y \in h(A\cup B)$. Thus. the original statement is proved.
 
 (4a) How many bit strings of length 12 either start with _00_ or end with _1111_?
+>Solution
+Strings start with _00_: $2^{10}$.
+Strings end with _1111_: $2^{8}$.
+Strings start with _00_ and end with _1111_: $2^{6}$
+Because of double counting, by inclusion/exclusion principle, the number of strings either start with _00_ or end with _1111_ is $2^{10} + 2^8 - 2^6$.
 
 (4b) How many _one-to-one_ functions are there from a set of $p$ elements to a set of $s$ elements?
 >Solution
@@ -130,11 +137,17 @@ According to (2) and (3), the statement is proved.
 
 (7a) Suppose a password for a computer system must have at least 7, but no more than 11 characters where each character in the password is a lower case English letter, an upper case English letter, a binary digit, or one of the seven special characters (*, >, <, !, +, =, $). How many of these password contain at least one occurence of at least one of the seven special characters?
 >Solution
-Todo
+$$
+\begin{aligned}
+C_{total} &= 61^{11}+ 61^{10} + 61^{9} + 61^{8} + 61^{7}\\
+C_{nospecial} &= 54^{11}+ 54^{10} + 54^{9} + 54^{8} + 54^{7}\\
+C_{special} &= C_{total} - C_{special}
+\end{aligned}
+$$
 
 (7b) Assume strings of length 8 are formed with letters: _ABCDEFGH_. Calculate the numbers of strings that contain the substrings: _AB_ and _FGH_
 >Solution
-
+We can treat _AB_ and _FGH_ as two individual elements, then the answer can be given by the number of 5-**permutations** of a set of 5 elements. That is $P(5, 5)$.
 
 (8a) Give an example of a relation that both symmetric and anti-symmetric. Define the set and the relation.
 >Solution
