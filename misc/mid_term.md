@@ -120,7 +120,7 @@ $$
 
 (6b) Let $X$ be a set with $m$ elements. Prove that the number of subsets is: $2^m$
 >Solution
-1\. The number of subsets with $n$ elements is $C(m, n)$ (combination), where $ 0 \les n \les m$.
+1\. The number of subsets with $n$ elements is $C(m, n)$ (combination), where $0 \les n \les m$.
 2\. The number of all subsets is
 $$
 C(m, 0) + C(m, 1) + \cdots + C(m, m) = \sum_{n=0}^m C(m, n)
